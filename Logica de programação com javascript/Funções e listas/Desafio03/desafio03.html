@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Desafio</h1>
+    <script>
+        //  Calcular massa de índice corporal (IMC)
+
+         function calcualrIMC(){
+            let seuPeso = Number(prompt('Digite peu peso'));
+            let suaAltura = Number(prompt ('Digite sua altura em centimetros'));
+            let imc = seuPeso / suaAltura ** 2
+            
+            if(imc < 18.5){
+                console.log('Abaixo do peso',  imc.toFixed(1));
+            } else if( imc >= 18.5 && imc <= 24.9){
+                console.log('Peso normal', imc.toFixed(1));
+            } else if(imc >= 25 && imc <=29.9){
+                console.log('Sobrepeso', imc.toFixed(1));
+            } else if(imc >= 30 && imc <= 34.5){
+                console.log('Obesiade grau 1', imc.toFixed(1))
+            }  else {
+                console.log('Obesidade sebera(grau 2 ou 3)', imc.toFixed(1))
+            }
+        }
+        calcualrIMC(); 
+
+
+        function converterDolar(Dolar){
+            let real = 480;
+            console.log( real /  Dolar) ;
+        }
+        converterDolar(4.80);
+
+        function calcularArea(altura,largura){
+            let perimetro = 2 * (altura + largura);
+            let area  = altura * largura;
+            console.log(area);
+            console.log(perimetro);
+
+
+        }
+        calcularArea(10,20)
+
+
+        function raioCirculo(raio){
+            let area  = raio ** 2 * raio;
+            let perimetro = ( raio * 2) * raio;
+            console.log(area.toFixed(1));
+            console.log(perimetro.toFixed(0));
+        }
+        raioCirculo(3.14);
+
+        function tabuadaNumero(n){
+            for(i = 0; i <= 10;i++){
+                console.log(`${n} * ${i} = ${n * i}`)
+            }
+        }
+        tabuadaNumero(5)
+    </script>
+</body>
+</html>
