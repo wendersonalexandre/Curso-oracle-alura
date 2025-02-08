@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+
+/*Vai dar um reset nas margens do documento e também no paddig*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #001B2E;
+    color: #F3F8FF;
+    box-sizing: border-box;
+}
+
+.Apresentacao{
+    padding: 7% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao_conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.apresentacao-conteud-titulo{
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+    
+}
+
+.apresentacao-conteudo-texto{
+    font-size: 24px;
+    font-family:"Montserrat",sans-serif ;
+    
+}
+
+.titulo-destaque{
+    color: #22D4FD;
+}
+
+.apresentacao-links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.apresentacap-links-subtitulo{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao-links-link{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border: 2px solid #22D4FD ;
+    width: 378px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding:  21.5px 0px;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family:"Montserrat",sans-serif ;
+    transition: 0.7s;
+}
+
+.apresentacao-links-link:hover{
+    background-color: #272727
+    
+}
+
+
+.rodape{
+    background-color: #22D4FD;
+    color: #272727;
+    padding: 24px;
+    text-align: center;
+    font-family:"Montserrat",sans-serif ;
+    font-size: 18px;
+    font-weight: 400;
+}
