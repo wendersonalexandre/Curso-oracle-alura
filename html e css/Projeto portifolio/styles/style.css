@@ -1,19 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
 
+/*Variaveis CSS*/
+:root{
+    --cor1:#22D4FD;
+    --cor2:#F6F6F6;
+    --cor3:#272727;
+    --cor4:#000;
+}
 
-/*Vai dar um reset nas margens do documento e também no paddig*/
+
+/*Vai dar um reset nas margens do documento e no paddig*/
 *{
     margin: 0;
     padding: 0;
 }
 
+/*Estilização do corpo*/
 body{
     background-color: #001B2E;
     color: #F3F8FF;
     box-sizing: border-box;
 }
 
+/*Estilização do header e nav*/
 .cabecalho{
     padding:2% 0% 0% 15% ;
 }
@@ -35,7 +45,7 @@ body{
     text-decoration: underline;
 }
 
-
+/*Estilixação do Main */
 
 .Apresentacao{
     padding: 6% 15%;
@@ -54,18 +64,21 @@ body{
 .apresentacao-conteud-titulo{
     font-size: 36px;
     font-family: "Krona One", sans-serif;
+    text-align: start;
     
 }
 
 .apresentacao-conteudo-texto{
     font-size: 24px;
     font-family:"Montserrat",sans-serif ;
-    
+    align-items: start;
 }
 
 .titulo-destaque{
     color: #22D4FD;
 }
+
+/*Estilização dos botões*/
 
 .apresentacao-links{
     display: flex;
@@ -105,6 +118,7 @@ body{
     
 }
 
+/* Rodapé do site*/
 
 .rodape{
     background-color: #22D4FD;
