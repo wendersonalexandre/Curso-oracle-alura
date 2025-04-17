@@ -3,13 +3,15 @@ public class Principal {
         Filme meuFilme = new Filme();
         meuFilme.nome = "Velozes e Furiosos";
         meuFilme.anoDelancamento = 2021;
-        meuFilme.incluidoNoPlano = true;
-        meuFilme.avaliacao = 4.5;
-        meuFilme.totalDeAvaliacoes = 1000;
         meuFilme.ducacaoEmMinutos = 140;
 
-        System.out.println(meuFilme.nome);
-        System.out.println(meuFilme.anoDelancamento);
+        meuFilme.exibeFichaTecnica();
+        meuFilme.avaliaFilmes(10);
+        meuFilme.avaliaFilmes(8);
+        meuFilme.avaliaFilmes(9);
 
+        System.out.println( + meuFilme.somaDasAvaliacoes );
+        System.out.println( + meuFilme.totalDeAvaliacoes );
+        System.out.println( + meuFilme.pegaMedia() );
     }
 }

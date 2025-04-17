@@ -68,6 +68,7 @@ public class ResoluçãoDesafio {
             System.out.print("Escolha uma operação: ");
             operacao = scanner.nextInt();
         }
+        scanner.close();
 
     }
 }
