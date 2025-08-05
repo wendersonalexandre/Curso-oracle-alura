@@ -1,7 +1,7 @@
 public class App{
     public static void main(String[] args) throws Exception {
         System.out.println("Bem-Vindo ao Screen Macth!");
-        System.out.println("Filme: Top Gun: Maverick");
+        System.out.println("br.com.alura.screenmacth.modelos.Filme: Top Gun: Maverick");
 
         int anoDeLancamento = 2022; // Variavel do tipo int 
         System.out.println("Ano de Lançamento: " + anoDeLancamento); // Exibe o ano de lançamento concatenado com a variavel 
@@ -12,8 +12,8 @@ public class App{
         System.out.println(media); // Exibe a média concatenada com a variavel
         String sinopse;
         sinopse = """
-                Filme Top Gun
-                Filme de aventura com Tom Cruise
+                br.com.alura.screenmacth.modelos.Filme Top Gun
+                br.com.alura.screenmacth.modelos.Filme de aventura com Tom Cruise
                 Muito bom
                 ano de lançamento: 
                 """+ anoDeLancamento;
