@@ -1,4 +1,4 @@
-package br.com.alura.screenmacth.modelos;
+package br.com.alura.screenmatch.modelos;
 
 public class Serie extends Titulo {
     private int temporadas;
@@ -45,5 +45,9 @@ public class Serie extends Titulo {
 
     public void setDuracaoEMminutos(int duracaoEMminutos) {
         this.duracaoEMminutos = duracaoEMminutos;
+    }
+
+    public void setAnoDeLancamento(int i) {
+
     }
 }

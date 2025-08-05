@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aplicando a Orientação a objetos/Aplicando a Orientação a objetos.iml" filepath="$PROJECT_DIR$/Aplicando a Orientação a objetos/Aplicando a Orientação a objetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Criando primeira aplicação/Controlando o fluxo da aplicação/Controlando o fluxo da aplicação.iml" filepath="$PROJECT_DIR$/Criando primeira aplicação/Controlando o fluxo da aplicação/Controlando o fluxo da aplicação.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java e Orientação a Objetos.iml" filepath="$PROJECT_DIR$/.idea/Java e Orientação a Objetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Criando primeira aplicação/Primeiro programa em java/Primeiro programa em java.iml" filepath="$PROJECT_DIR$/Criando primeira aplicação/Primeiro programa em java/Primeiro programa em java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Criando primeira aplicação/catalogo de filmes/catalogo de filmes.iml" filepath="$PROJECT_DIR$/Criando primeira aplicação/catalogo de filmes/catalogo de filmes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Criando primeira aplicação/consolidando conhecimentos/consolidando conhecimentos.iml" filepath="$PROJECT_DIR$/Criando primeira aplicação/consolidando conhecimentos/consolidando conhecimentos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aplicando a Orientação a objetos/construindo uma aplicacao de audio/construindo uma aplicacao de audio.iml" filepath="$PROJECT_DIR$/Aplicando a Orientação a objetos/construindo uma aplicacao de audio/construindo uma aplicacao de audio.iml" />
+    </modules>
+  </component>
+</project>
